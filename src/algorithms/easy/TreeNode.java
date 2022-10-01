@@ -2,8 +2,8 @@ package algorithms.easy;
 
 public class TreeNode {
     public int val;
-    public algorithms.medium.TreeNode left;
-    public algorithms.medium.TreeNode right;
+    public TreeNode left;
+    public TreeNode right;
 
     TreeNode() {
     }
@@ -12,7 +12,7 @@ public class TreeNode {
         this.val = val;
     }
 
-    TreeNode(int val, algorithms.medium.TreeNode left, algorithms.medium.TreeNode right) {
+    TreeNode(int val, TreeNode left, TreeNode right) {
         this.val = val;
         this.left = left;
         this.right = right;

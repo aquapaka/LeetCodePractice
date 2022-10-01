@@ -44,10 +44,10 @@ public class FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree {
     private void inorderTraversal(TreeNode node) {
         if(node == null) return;
 
-        inorderTraversal(node.getLeft());
+        inorderTraversal(node.left);
 
-        if (node.getVal() == target.getVal()) result = node;
+        if (node.val == target.val) result = node;
 
-        inorderTraversal(node.getRight());
+        inorderTraversal(node.right);
     }
 }
