@@ -1,12 +1,10 @@
-import algorithms.hard.UniquePathsIII;
+import algorithms.medium.MinimumTimeToMakeRopeColorful;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Starting Program!");
-
-        UniquePathsIII up3 = new UniquePathsIII();
-        int[][] grid = {{1, 0, 0, 0}, {0, 0, 0, 0}, {0, 0, 0, 2}};
-        System.out.println(up3.uniquePathsIII(grid));
+        
+        System.out.println(MinimumTimeToMakeRopeColorful.minCost("aabaa", new int[]{1,2,3,4,1}));
     }
 }
 
