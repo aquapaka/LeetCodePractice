@@ -1,4 +1,4 @@
-/*
+package algorithms.easy;/*
 Given the root of a Binary Search Tree and a target number k, return true if there exist two elements in the BST such that their sum is equal to the given target.
 
  
@@ -15,7 +15,7 @@ Input: root = [5,3,6,2,4,null,7], k = 28
 Output: false
 */
 
-class TwoSumIVInputIsABST {
+public class TwoSumIVInputIsABST {
     private TreeNode root;
     private boolean isFound;
     

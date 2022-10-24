@@ -1,4 +1,4 @@
-/*
+package algorithms.easy;/*
 Given an integer array nums, return the largest perimeter of a triangle with a non-zero area, formed from three of these lengths. If it is impossible to form any triangle of a non-zero area, return 0.
 
  
@@ -13,7 +13,9 @@ Input: nums = [1,2,1]
 Output: 0
 */
 
-class LargestPerimeterTriangle {
+import java.util.Arrays;
+
+public class LargestPerimeterTriangle {
     public int largestPerimeter(int[] nums) {
         
         Arrays.sort(nums);
