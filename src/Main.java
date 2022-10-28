@@ -1,18 +1,19 @@
-import algorithms.medium.MaximumLengthOfAConcatenatedStringWithUniqueCharacters;
+import algorithms.easy.RemoveDuplicatesFromSortedArray;
 
-import java.util.List;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("Starting test...");
+
         long startTime = System.currentTimeMillis();
 
-        MaximumLengthOfAConcatenatedStringWithUniqueCharacters mObj = new MaximumLengthOfAConcatenatedStringWithUniqueCharacters();
-        System.out.println(mObj.maxLength(List.of("cha","r","act","ers")));
+        int[] nums = new int[]{0,0,1,1,1,2,2,3,3,4};
+        System.out.println(RemoveDuplicatesFromSortedArray.removeDuplicates(nums));
+        System.out.println(Arrays.toString(nums));
 
         long endTime = System.currentTimeMillis();
         System.out.println("Finished! Execution time: " + (endTime - startTime) + " ms");
-
     }
 }
 
