@@ -1,5 +1,4 @@
-import algorithms.hard.MyCalendarIII;
-import algorithms.medium.ThreeSumClosest;
+import algorithms.easy.AddBinary;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,12 +6,12 @@ public class Main {
         long startTime = System.currentTimeMillis();
 
         /*
-            - Execution here ----------------------------------
+         * - Execution here ----------------------------------
          */
-        MyCalendarIII myCalendarIII = new MyCalendarIII();
-        System.out.println(ThreeSumClosest.threeSumClosest(new int[]{-1,2,1,-4}, 1));
+        AddBinary addBinary = new AddBinary();
+        System.out.println(addBinary.addBinary("1010", "1011"));
         /*
-            ----------------------------------------------------
+         * ----------------------------------------------------
          */
 
         long endTime = System.currentTimeMillis();
@@ -20,4 +19,3 @@ public class Main {
 
     }
 }
-
